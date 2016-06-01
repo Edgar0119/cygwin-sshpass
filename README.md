@@ -10,15 +10,21 @@ Run sshpass on Windows via Cygwin
 * make
 
 You can use apt-cyg to install above packages
+
 install apt-cyg to your cygwin (https://github.com/transcode-open/apt-cyg)
+
 Run apt-cyg install XXXXXX to install above requirements package
 
 # Build instructions
-$ clone https://github.com/Edgar0119/cygwin-sshpass.git cygwin-sshpass
+$ git clone https://github.com/Edgar0119/cygwin-sshpass.git cygwin-sshpass
 
 $ cd cygwin-sshpass
 
-$ ./configure
+$ tar -zxvf sshpass-1.05.tar.gz
+
+$ cd sshpass-1.05
+
+$ bash ./configure
 
 $ make
 
